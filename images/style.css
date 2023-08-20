@@ -963,41 +963,7 @@ table.tabulka_v_textu tbody  {
     #div_nadpis {
         display: none;
     }
-    /*
-    #div_nadpis {
-        box-sizing: border-box;
-        display: block;
-        width: 2.3em;
-        height: 0.2em;
-        border-radius: 3px;
-        background: currentColor;
-
-        position: absolute;
-        top: 8.6rem;
-        right: 3rem;
-        font-size: 3rem;
-        
-        cursor: pointer;
-    }
-    #div_nadpis::after, #div_nadpis::before {
-        content: "";
-        position: absolute;
-        top: -0.6em;
-      }
-    .div_nadpis, #div_nadpis::after, #div_nadpis::before {
-        box-sizing: border-box;
-        position: relative;
-        display: block;
-        width: 2.3em;
-        height: 0.2em;
-        border-radius: 3px;
-        background: currentColor;
-    }
-    #div_nadpis::after {
-        top: 0.4em;
-    }    
-    */
-    #div_nadpis p {
+   #div_nadpis p {
         display: none !important;
     }
 
@@ -1097,7 +1063,7 @@ table.tabulka_v_textu tbody  {
         
         cursor: pointer;
 
-        background-image: url('/images/menu-burger-horizontal-svgrepo-com.svg');
+        background-image: url('https://www.svgrepo.com/show/489508/menu-burger-horizontal.svg');
         background-position: center;
         background-size: cover;
 
@@ -1147,4 +1113,4 @@ table.tabulka_v_textu tbody  {
         padding-top: 4.4rem !important;
     }     
 }
-
+/* end responsive */
